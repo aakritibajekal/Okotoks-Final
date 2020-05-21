@@ -1,0 +1,579 @@
+/* This is start of my Home Page */
+* { box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+body {
+	margin: 2 auto;
+}
+.specials section {
+	display: inline-block;
+	width: 250px;
+	padding: 15px;
+}
+.specials {
+	text-align: center;
+}
+img {
+	max-width: 100%;
+}
+.background {
+background-image: url("../blackboard.jpg");
+background-attachment: fixed;
+display: grid;
+grid-template-columns: 33.333% 33.333% 33.333%;
+grid-template-rows: auto;
+grid-template-areas: 
+"logo  				okatok-nav 		okatok-nav"
+"hero  				hero			hero"
+"specials-title 	specials-title. specials-title"
+"basillica          pesto        	margarita"
+"basillica2         pesto2          margarita2"
+"offer-banner1		offer-banner1	offer-banner2"
+"menu				menu			menu-items"
+"testimonial		testimonial		testimonial"
+"video				video			video"
+"footer				footer			footer"
+}
+.logo {
+	width: 90px;
+	padding: 5px;
+	grid-column-start: 'logo';
+}
+.okatok-nav {
+	text-align: right;
+	grid-column-start: 'okatok-nav';
+	grid-column-end: span 2;
+	font-size: 20px;
+	padding: 5px;
+	padding-top: 18px;
+	padding-right: 10px;
+}
+.hero {
+	grid-column-start: 'hero';
+	grid-column-end: span 3;
+	width: 100%;
+	padding: 0;
+	background-color: grey;
+	opacity: 0.80;
+}
+.specials-title {
+	grid-column-start: 'specials-title';
+	grid-column-end: span 3;
+	color: white;
+	padding-top: 15px;
+}
+.basillica {
+	grid-column-start: 'basillica';
+	padding: 15px;
+	color: white;
+}
+.pesto {
+	grid-column-start: 'pesto';
+	padding: 15px;
+	color: white;
+}
+.margarita {
+	grid-column-start: 'margarita';
+	padding: 15px;
+	color: white;
+}
+.basillica2 {
+	grid-column-start: 'basillica2';
+	padding: 15px;
+	color: white;
+	max-width: 75%;
+}
+.pesto2 {
+	grid-column-start: 'pesto2';
+	padding: 15px;
+	color: white;
+	max-width: 75%;
+}
+.margarita2 {
+	grid-column-start: 'margarita2';
+	padding: 15px;
+	color: white;
+	max-width: 75%;
+}
+.offer-banner1 {
+	grid-column-start: 'offer-banner1';
+	grid-column-end: span 2;
+	background-color: #A90A00;
+	padding: 30px;
+	color: white;
+	font-size: 20px;
+}
+.offer-banner2 {
+	grid-column-start: 'offer-banner2';
+	background-color: #A90A00;
+	padding: 20px;
+}
+.menu-home {
+	grid-column-start: 'menu';
+	grid-column-end: span 2;
+	color: white;
+	padding: 15px;
+}
+.menu-items {
+	grid-column-start: 'menu-items'
+	padding: 25px;
+	padding-top: 10px;
+}
+.testimonial {
+	grid-column-start: 'testimonial';
+	grid-column-end: span 3;
+}
+.footer {
+	grid-column-start: 'footer';
+	grid-column-end: span 3;
+		background-color: #DBBB93;
+	padding: 10px;
+}
+body {
+	font-family: calibri-light, sans-serif;
+	text-align: center;
+}
+a {
+	color: white;
+}
+h2 {
+	color: white;
+	font-size: 30px;
+}
+h4 {
+	color: white;
+	font-size: 24px;
+	text-align: left;
+	font-family: sans-serif;
+}
+p {
+	color: white;
+	font-size: 16px;
+	text-align: left;
+	font-family: calibri-light, sans-serif;
+}
+
+/*This is the end of my Home Page*/
+
+.menu-web {
+	background-image: url("../blackboard.jpg");
+	background-attachment: fixed;
+	display: grid;
+	grid-template-columns: 25% 25% 25% 25%;
+	grid-template-rows: auto;
+	grid-template-areas: 
+	"menu-logo  		okatok-nav 		okatok-nav		 okatok-nav"
+	"menu-hero  		menu-hero		menu-hero		 menu-hero"
+	"Italian-pizzas		Itaian-pizzas  Italian-pizzas	 Italian-pizzas"
+	"left-1				l1-left			r1-right		 right-2"
+	"left-2				l2-left			right-2			 r2-right"
+	"left-3				l3-left			right-3			 r3-right"
+	"left-4				l4-left			right-4			 r4-right"
+	"sides-menu			sides-menu		sides-menu		 sides-menu"
+	"app-menu			sides2			sides3		 	 empty2"
+	"app-menu			sides4			sides5			 app-image"
+	"empty				side7			emptys		 	 empty"
+	"pasta-head			pasta-head		pasta-head		 pasta-head"
+	"pasta-menu1		pasta-menu2  	pasta-menu3		 pasta-menu4"
+	"pasta-menu5		pasta-menu6  	pasta-img		 pasta-img"		 
+	"menu-footer		menu-footer		menu-footer		 menu-footer"
+}
+.menu-logo {
+	width: 90px;
+	padding: 5px;
+	grid-column-start: 'logo';
+}
+.menu-okatok-nav {
+	grid-column-start: 'okatok-nav';
+	grid-column-end: span 3;
+	font-size: 20px;
+	padding: 5px;
+	padding-top: 18px;
+	text-align: right;
+	padding-right: 15px;
+}
+.menu-hero {
+	grid-column-start: 'hero';
+	grid-column-end: span 4;
+	width: 100%;
+	padding: 0;
+	background-color: grey;
+	opacity: 0.80
+}
+.Italian-pizzas {
+	grid-column-start: 'Italian-pizzas';
+	grid-column-end: span 4;
+	background-color: #A90A00;
+	padding: 5px;
+}
+.left-1 {
+	grid-column-start: 'left-1';
+	padding: 5px;
+	margin: auto;
+}
+.l1-left {
+	grid-column-start: 'l1-left';
+	padding: 5px;
+	margin: auto;
+}
+.right-1 {
+	grid-column-start: "right-1";
+	padding: 5px;
+	margin: auto;
+}
+.r1-right {
+	grid-column-start: "r1-right";
+	padding: 5px;
+	margin: auto;
+}
+.left-2 {
+	grid-column-start: "left-2";
+	padding: 5px;
+	margin: auto;
+}
+.l2-left {
+	grid-column-start: "l2-left";
+	padding: 5px;
+	margin: auto;
+}
+.right-2 {
+	grid-column-start: "right-2";
+	padding: 5px;
+	margin: auto;
+}
+.r2-right {
+	grid-column-start: "r2-right";
+	padding: 5px;
+	margin: auto;
+}
+.left-3 {
+	grid-column-start: "left-3";
+	padding: 5px;
+	margin: auto;
+}
+.l3-left {
+	grid-column-start: "l3-left";
+	padding: 5px;
+	margin: auto;
+}
+.r3-right {
+	grid-column-start: "r3-right";
+	padding: 5px;
+	margin: auto;
+}
+.right-3 {
+	grid-column-start: "right-3";
+	padding: 5px;
+	margin: auto;
+}
+.left-4 {
+	grid-column-start: "left-4";
+	padding: 5px;
+	margin: auto;
+}
+.l4-left {
+	grid-column-start: "l4-left";
+	padding: 5px;
+	margin: auto;
+}
+.r4-right {
+	grid-column-start: "r4-right";
+	padding: 5px;
+	margin: auto;
+}
+.right-4 {
+	grid-column-start: "right-4";
+	padding: 5px;
+	margin: auto;
+}
+.sides-menu {
+	grid-column-start: "sides-menu";
+	grid-column-end: span 4;
+	background-color: #A90A00;
+	padding: 5px;
+}
+.app-menu {
+			grid-column-start: "app-menu";
+			padding-top: 20px;
+			padding-left: 20px;
+}
+.sides2 {
+	grid-column-start: "sides2";
+	padding-top: 15px;
+	margin: auto;
+}
+.sides3 {
+	grid-column-start: "sides3";
+	padding-top: 15px;
+	margin: auto;
+}
+.sides4 {
+	grid-column-start: "sides4";
+	padding-top: 15px;
+	padding-bottom: 15px;
+	margin: auto;
+}
+.sides5 {
+	grid-column-start: "sides5";
+	padding-top: 15px; 
+	padding-bottom: 15px;
+	margin: auto;
+}
+.side7 {
+	grid-column-start: "side7";
+	padding-top: 15px;
+	margin: auto;
+}
+.pasta-head {
+	grid-column-start: "pasta-head";
+	grid-column-end: span 4;
+	background-color: #A90A00;
+	padding: 5px;
+}
+.pasta-menu1 {
+	grid-column-start: "pasta-menu1";
+	padding: 15px;
+	margin: auto;
+}
+.pasta-menu2 {
+	grid-column-start: "pasta-menu2";
+	padding: 15px;
+	margin: auto;
+}
+.pasta-menu3 {
+	grid-column-start: "pasta-menu3";
+	padding: 15px;
+	margin: auto;
+}
+.pasta-menu4 {
+	grid-column-start: "pasta-menu4";
+	padding: 15px;
+	margin: auto;
+}
+.pasta-menu5 {
+	grid-column-start: "pasta-menu5";
+	padding: 15px;
+	margin: auto;
+}
+.pasta-menu6 {
+	grid-column-start: "pasta-menu6";
+	padding: 15px;
+	margin: auto;
+}
+.pasta-img {
+	grid-column-start: "pasta-img";
+	grid-column-end: span 2;
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+	padding-bottom: 0;
+	padding-top: 0;
+}
+.menu-footer {
+	grid-column-start: 'menu-footer';
+	grid-column-end: span 4;
+	background-color: #DBBB93;
+}
+h1 {
+	font-size: 40px;
+	color: white;
+	font-family: arial, sans-serif;
+	text-align: center;
+}
+.about-background {
+background-image: url("../blackboard.jpg");
+background-attachment: fixed;
+display: grid;
+grid-template-columns: 33.333% 33.333% 33.333%;
+grid-template-rows: auto;
+grid-template-areas: 
+"logo  				okatok-nav 		okatok-nav"
+"about-hero  		about-hero		about-hero"
+"about-us			about-us		about-us"
+"information		information		information"
+"about-footer		about-footer	about-footer"
+}
+.logo {
+	width: 90px;
+	padding: 5px;
+	grid-column-start: 'logo';
+}
+.okatok-nav{
+	text-align: right;
+	grid-column-start: 'okatok-nav';
+	grid-column-end: span 2;
+	font-size: 20px;
+	padding: 5px;
+	padding-top: 18px;
+	padding-right: 10px;
+}
+.about-us {
+	grid-column-start: 'about-us';
+	grid-column-end: span 4;
+	background-color: #A90A00;
+	padding: 5px;
+}
+.information {
+	grid-column-start: 'information';
+	grid-column-end: span 3;
+	padding: 15px;
+}
+p.pretty::first-letter {
+	font-size: 200%;
+	color: #F1F1F1;
+}
+.about-hero {
+	grid-column-start: 'about-hero';
+	grid-column-end: span 3;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+	background-color: grey;
+	opacity: 0.80;
+}
+.about-footer {
+	grid-column-start: 'menu-footer';
+	grid-column-end: span 3;
+	background-color: #DBBB93;
+	padding: 10px;
+}
+.location-web {
+	width: 100%;
+	padding: 0;
+	background-color: grey;
+	background-image: url("../blackboard.jpg");
+	opacity: 0.80
+}
+.locatiom-web {
+	background-image: url("../blackboard.jpg");
+	background-attachment: fixed;
+	display: grid;
+	grid-template-columns: 33.333% 33.333% 33.333%;
+	grid-template-rows: auto;
+	grid-template-areas:
+	 "lo-logo  		okatok-nav 	okatok-nav"
+	 "google-map	google-map	google-map"
+	 "empty-block	form		empty-block2"
+	 "loc-footer	loc-footer	loc-footer"
+}
+.lo-logo {
+	width: 90px;
+	padding: 5px;
+	grid-column-start: 'lo-logo';
+}
+.okatok-nav {
+	text-align: right;
+	grid-column-start: 'okatok-nav';
+	grid-column-end: span 2;
+	font-size: 20px;
+	padding: 5px;
+	padding-top: 18px;
+	padding-right: 10px;
+}
+.google-map {
+	grid-column-start: 'google-map';
+	grid-column-end: span 3;
+	padding: 5px;
+	width: 100%;
+	height: 300px;
+}
+.google-map iframe {
+	height: 100%;
+	width: 100%;
+}
+
+.loc-footer {
+	grid-column-start: 'loc-footer';
+	grid-column-end: span 3;
+	background-color: #DBBB93;
+	padding: 10px;
+}
+.empty-block {
+	grid-column-start: 'empty-block';
+}
+.empty-block2 {
+	grid-column-start: 'empty-block2';
+}
+.form p{
+	text-align: justify;
+}
+.form {
+	grid-column-start: 'form';
+	padding: 10px;
+	line-height: 1.5;
+}
+.okatok-nav .icon {
+	display: none;
+}
+/* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
+@media screen and (max-width: 600px) {
+  .okatok-nav a {display: none;}
+  .okatok-nav a.icon {
+    float: right;
+    display: block;
+  }
+}
+@media screen and (max-width: 600px) {
+  .okatok-nav.responsive {position: relative;}
+  .okatok-nav.responsive a.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+   }
+ }
+  .okatok-nav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  .menu-okatok-nav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
+@media screen and (max-width: 600px) {
+  .menu-okatok-nav.responsive {position: relative;}
+  .menu-okatok-nav.responsive a.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+}
+@media screen and (max-width: 600px) {
+  .menu-okatok-nav a {display: none;}
+  .menu-okatok-nav a.icon {
+    float: right;
+    display: block;
+  }
+}
+.menu-okatok-nav .icon {
+	display: none;
+}
+@media screen and (max-width: 600px) {
+	
+}
+@media screen and (min-width: 601px) {
+  div.example {
+    font-size: 100%;
+    column-count: 3;
+  }
+}
+@media screen and (max-width: 600px) {
+  div.example {
+    font-size: 60%;
+    column-count: 1;
+  }
+}
+.black {
+	color:black;
+}
+.payment {
+	text-align: right;
+}
+.social-media {
+	margin: auto;
+	line-height: 1.5;
+}
